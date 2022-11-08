@@ -69,7 +69,7 @@ const Home = () => {
             required
             placeholder="foodname"
           />
-          <br />
+         
           <HomeLabel htmlFor="">Meal Type?</HomeLabel>
           <br />
           <HomeSelect onChange={handleChange} name="" id="mealtype" required>
@@ -79,7 +79,7 @@ const Home = () => {
             <HomeOption value="Snack">Snack</HomeOption>
             <HomeOption value="TeaTime">TeaTime</HomeOption>
           </HomeSelect>
-          <br />
+        
           <HomeButton type="submit">Submit</HomeButton>
         </form>
       </HomeDiv>

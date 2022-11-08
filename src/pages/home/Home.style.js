@@ -8,7 +8,7 @@ const HomeDiv = styled.div`
   background-color:rgba(26, 126, 121, 1) ;
   border-radius: 10px;
   box-shadow:  3px 3px 10px red;
-  font-family: 'Lobster Two', cursive;
+  /* font-family: 'Lobster Two', cursive; */
   padding: 2rem;
 
 `;

@@ -6,9 +6,9 @@ const RecipeCard = ({ item }) => {
   console.log(item.recipe);
   return (
     <div>
-      <div className="card shadow gap-4 display-1 fs-5 " style={{ width: "25rem", height: "40rem" }}>
+      <div className="card shadow gap-4 display-1 fs-5 " style={{ width: "25rem", height: "34.5rem" }}>
         <img src={item?.recipe?.image} className="card-img-top" alt="..." />
-        <div className="card-body">
+        <div className="card-body" >
           <h5 className="card-title">{item?.recipe?.label}</h5>
 
           <button
